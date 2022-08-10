@@ -1,7 +1,7 @@
 <template>
     <div>
         <button @click="count++">
-            {{ count }}
+            Common button with counter {{ count }}
         </button>
     </div>
 </template>
@@ -18,8 +18,8 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style scoped>
 button {
-    background: red;
+    background: plum;
 }
 </style>

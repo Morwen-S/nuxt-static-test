@@ -1,14 +1,16 @@
 <template>
     <div>
         MAIN PAGE
-        flghkdjf gkdfhgkd fhgkjdhf gkjdhfkgj dkfjg dkjfh
-        {{ count }}
-        <OwnButton />
+        <p>Some content</p>
+        Counter: {{ count }}
         <button @click="count++">
-            ADD
+            ADD COUNT
         </button>
+        <p>Common components for all landings:</p>
+        <OwnButton />
+        <br>
         <NuxtLink to="/thank-you">
-            About page
+            To Thank You page
         </NuxtLink>
     </div>
 </template>
